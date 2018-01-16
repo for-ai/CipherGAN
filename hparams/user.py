@@ -1,6 +1,8 @@
 import tensorflow as tf
 
 from .registry import register
+from .cipher import simple_cipher
+
 
 # settings for Vigenere cipher vocab size 200
 @register("vigenere_brown_vocab_200")
