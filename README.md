@@ -1,7 +1,7 @@
 # CipherGAN
 
 Implementation of CipherGAN, used to obtain the results detailed in [Unsupervised Cipher-Cracking Using Neural Networks](https://arxiv.org/abs/1801.04883).  
-**Authors**: [Aidan N. Gomez](https://aidangomez.ca/), [Sīcōng Huang](https://www.linkedin.com/in/sicong-sheldon-huang/), [Ivan Zhang](https://ivanzhang.ca/), [Bryan Li](https://bryanli.xyz/), [Muhammad Osama](http://mcode.ca/), [Łukasz Kaiser](https://research.google.com/pubs/LukaszKaiser.html) 
+**Authors**: [Aidan N. Gomez](https://aidangomez.ca/), [Sīcōng Huang](https://www.linkedin.com/in/sicong-sheldon-huang/), [Ivan Zhang](https://ivanzhang.ca/), [Bryan M. Li](https://bryanli.io/), [Muhammad Osama](http://mcode.ca/), [Łukasz Kaiser](https://research.google.com/pubs/LukaszKaiser.html) 
 
 ## Running this code
 Call `pip install -r CipherGAN/requirements.txt` to install all dependencies.
