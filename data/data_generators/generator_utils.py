@@ -9,7 +9,7 @@ def to_example(dictionary):
   for k, v in dictionary.items():
     if len(v) == 0:
       raise Exception("Empty field: %s" % str((k, v)))
-    if isinstance(v[0], (int, np.int8, np.int64)):
+    if isinstance(v[0], (int, np.int8, np.int32, np.int64)):
       features[k] = tf.train.Feature(int64_list=tf.train.Int64List(value=v))
     elif isinstance(v[0], (float, np.float32)):
       features[k] = tf.train.Feature(float_list=tf.train.FloatList(value=v))
