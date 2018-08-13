@@ -115,6 +115,7 @@ def wasserstein_penalty(discriminator, A_true, A_fake, params,
     A_interp = softmax_to_embedding(A_interp, params)
   discrim_A_interp = discriminator(A_interp, discriminator_params, params)
   discrim_A_grads = tf.gradients(discrim_A_interp, [A_interp])
+  discrim_A_grads = tf.squeeze(discrim_A_grads)
 
   if params.original_l2:
     l2_loss = tf.sqrt(
